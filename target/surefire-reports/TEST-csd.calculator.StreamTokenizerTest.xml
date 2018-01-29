@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.069" errors="0" skipped="0" tests="3" name="csd.calculator.StreamTokenizerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="Z:\_EPAD\tools\java\jdk1.6.0_26\jre\bin"/>
+    <property name="java.vm.version" value="20.1-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="Z:\_EPAD\data\_WORKSPACE\RPNCalc-0.1"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="Z:\_EPAD\data\_WORKSPACE\RPNCalc-0.1"/>
+    <property name="java.endorsed.dirs" value="Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\myap\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="Z:\_EPAD\tools\java\jdk1.6.0_26\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;Z:/_EPAD/tools/Java/jdk1.6.0_26/jre/bin/client;Z:/_EPAD/tools/Java/jdk1.6.0_26/jre/bin;Z:/_EPAD/tools/Java/jdk1.6.0_26/jre/lib/i386;Z:\_EPAD\tools\collabnet-svn\Subversion Client;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Perl\site\bin;C:\Perl\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE;C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\DMIX;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\PROGRAM FILES (X86)\NTRU CRYPTOSYSTEMS\NTRU TCG SOFTWARE STACK\BIN\;C:\PROGRAM FILES\NTRU CRYPTOSYSTEMS\NTRU TCG SOFTWARE STACK\BIN\;C:\PROGRAM FILES\DELL\DELL DATA PROTECTION\ACCESS\ADVANCED\WAVE\GEMALTO\ACCESS CLIENT\V5\;C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\mingw\bin;C:\msys\1.0\bin;C:\gtest-1.6.0;C:\msys\bin;C:\MinGW\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\NCover\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\TortoiseSVN\bin;Z:\_EPAD\tools\java\jdk1.6.0_26\bin;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\bin;Z:\_EPAD\tools\maven\apache-maven-3.0.3\bin;Z:\_EPAD\tools\collabnet-svn\Subversion Client;C:\PROGRAM FILES\TORTOISESVN\BIN;Z:\_EPAD\tools\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\myap"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="MYap"/>
+    <property name="java.class.path" value="C:\Users\myap\AppData\Local\Temp\surefirebooter5600560094001953034.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="Z:\_EPAD\tools\java\jdk1.6.0_26\jre"/>
+    <property name="sun.java.command" value="C:\Users\myap\AppData\Local\Temp\surefirebooter5600560094001953034.jar C:\Users\myap\AppData\Local\Temp\surefire8895534839107007473tmp C:\Users\myap\AppData\Local\Temp\surefire3939696060894293324tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\resources.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\rt.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\sunrsasign.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\jsse.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\jce.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\charsets.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\lib\modules\jdk.boot.jar;Z:\_EPAD\tools\java\jdk1.6.0_26\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="Z:\_EPAD\data\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.015" classname="csd.calculator.StreamTokenizerTest" name="constructor_FakeStreamInput"/>
+  <testcase time="0" classname="csd.calculator.StreamTokenizerTest" name="endOfInput_tokenAvailableFalse"/>
+  <testcase time="0" classname="csd.calculator.StreamTokenizerTest" name="endOfInput_nextTokenEmptyString"/>
+</testsuite>
